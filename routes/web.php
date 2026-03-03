@@ -23,4 +23,5 @@ Route::get('/brand', function () {
 
 Route::get('/login', function () {
     return view('auth.login');
-})->name('login');
+})->name('login');  
+
